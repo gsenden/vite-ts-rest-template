@@ -12,10 +12,11 @@ build/
 .env.*.local
 
 # IDE and editor files
-.vscode/
 .idea/
 *.swp
 *.swo
+.vscode/*
+!.vscode/settings.json
 
 # Logs
 logs/
@@ -27,4 +28,4 @@ pnpm-debug.log*
 
 # System files
 .DS_Store
-Thumbs.db 
+Thumbs.db
