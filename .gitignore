@@ -17,6 +17,7 @@ build/
 *.swo
 .vscode/*
 !.vscode/settings.json
+!.vscode/launch.json
 
 # Logs
 logs/
