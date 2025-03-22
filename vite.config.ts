@@ -6,19 +6,19 @@ export default defineConfig({
 	plugins: [
 		...VitePluginNode({
 			adapter: 'express',
-			appPath: './src/index.ts',
+			appPath: './src/main.ts',
 			exportName: 'app',
-			tsCompiler: 'esbuild'
-		})
+			tsCompiler: 'esbuild',
+		}),
 	],
 	server: {
-		port: 3000
+		port: 3000,
 	},
 	optimizeDeps: {
 		// Vite does not handle node: protocol dependencies by default
-		exclude: ['express']
+		exclude: ['express'],
 	},
 	build: {
-		target: 'esnext'
-	}
+		target: 'esnext',
+	},
 });
