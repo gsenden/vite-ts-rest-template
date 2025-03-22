@@ -12,7 +12,10 @@ export default defineConfig({
 		}),
 	],
 	server: {
+		host: '0.0.0.0',
 		port: 3000,
+		strictPort: true,
+		open: '/api/hello',
 	},
 	optimizeDeps: {
 		// Vite does not handle node: protocol dependencies by default
