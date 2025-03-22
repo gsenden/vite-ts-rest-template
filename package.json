@@ -1,7 +1,7 @@
 {
-	"name": "phaser-box2d-server",
+	"name": "vite-ts-rest-template",
 	"version": "1.0.0",
-	"description": "",
+	"description": "A TypeScript REST API template using Vite",
 	"main": "index.js",
 	"type": "module",
 	"scripts": {
