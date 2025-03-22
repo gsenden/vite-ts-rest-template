@@ -17,5 +17,11 @@
 	"editor.codeActionsOnSave": {
 		"source.fixAll.eslint": "explicit"
 	},
-	"files.autoSave": "onFocusChange"
+	"files.autoSave": "onFocusChange",
+	"jestrunner.config": {
+		"debugOptions": {
+			"args": ["--experimental-vm-modules"]
+		}
+	},
+	"jestrunner.jestPath": "node_modules/.bin/jest"
 }
