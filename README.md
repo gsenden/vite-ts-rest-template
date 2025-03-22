@@ -2,6 +2,13 @@
 
 A modern TypeScript REST API template using Vite for fast development and building. Built following the Hexagonal Architecture (also known as Ports and Adapters) pattern for maintainable and testable code.
 
+## Dependencies
+
+- [Express](https://expressjs.com/) - Web framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Jest](https://jestjs.io/) - Testing framework
+- [neverthrow](https://github.com/supermacro/neverthrow) - Type-safe error handling
+
 ## Features
 
 - ⚡️ Vite for blazing fast development and building
@@ -11,6 +18,15 @@ A modern TypeScript REST API template using Vite for fast development and buildi
 - 🧪 Jest for testing
 - 🚀 Express.js for REST API
 - 📦 PNPM for fast, disk space efficient package management
+- TypeScript support
+- Express.js integration
+- Jest testing setup
+- Type-safe error handling with neverthrow
+- REST API endpoints
+- Dependency injection
+- Repository pattern
+- Service layer
+- Controller layer
 
 ## Architecture
 

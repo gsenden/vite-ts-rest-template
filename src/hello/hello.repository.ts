@@ -1,5 +1,6 @@
 export interface HelloRepositoryInterface {
 	track(): number;
+	getCount(): number;
 }
 
 export class InMemoryHelloRepository implements HelloRepositoryInterface {
@@ -7,6 +8,10 @@ export class InMemoryHelloRepository implements HelloRepositoryInterface {
 
 	track(): number {
 		this._count++;
+		return this._count;
+	}
+
+	getCount(): number {
 		return this._count;
 	}
 }
