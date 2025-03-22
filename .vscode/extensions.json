@@ -1,0 +1,8 @@
+{
+	"recommendations": [
+		"hbenl.vscode-test-explorer",
+		"firsttris.vscode-jest-runner",
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint"
+	]
+}
